@@ -1,0 +1,42 @@
+body{
+    background-color: #712F79;
+    color:#F7996E;
+    height:100%;
+}
+.zdjecia{
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    float: right;
+}
+img{
+    width:  20%;
+    padding: 10px;
+    border-radius: 50%;
+}
+header{
+    float:left;
+    min-height: 100vb;
+    width:15%;
+    background: #4C4C9D;
+    background: linear-gradient(180deg, rgba(76, 76, 157, 1) 0%, rgba(113, 47, 121, 1) 52%, rgba(247, 153, 110, 1) 100%);
+    justify-content: center;
+    padding: 5px;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    position: fixed;
+}
+.lista{
+    padding: 20px;
+    text-align: center;
+    float:left;
+    width:80%;
+    list-style-position: inside;
+}
+h2, h3, footer{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    width:80%;
+    float: right;
+}
